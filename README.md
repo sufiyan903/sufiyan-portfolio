@@ -1,12 +1,87 @@
-# React + Vite
+# sufiyan-portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is my personal portfolio website built with React.js, Tailwind CSS, and Framer Motion. It showcases my skills, projects, education, certifications, and contact details in a clean, responsive, and interactive design.
 
-Currently, two official plugins are available:
+## 🌐 Live Demo
+👉 Click here to view my live portfolio
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
+- 🧑‍💻 Dynamic Hero section with animated typing effect  
+- 🖼️ Profile image surrounded by segmented neon ring  
+- 🧩 Sections for About, Services, Skills, Education, Projects, and Contact  
+- 📱 Fully responsive for all devices  
+- ✨ Smooth animations using Framer Motion  
+- 🎨 Styled with Tailwind CSS v3.4.17  
+- 🌓 Dark mode ready (optional)  
 
-## Expanding the ESLint configuration
+## 📁 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+sufiyan-portfolio/
+│
+├── public/
+│ └── profile.png # Profile image
+│
+├── src/
+│ ├── components/
+│ │ ├── Hero.jsx # Hero section with animated ring
+│ │ ├── About.jsx
+│ │ ├── Projects.jsx
+│ │ └── ...other sections
+│ │
+│ ├── hooks/
+│ │ └── useRevealOnScroll.js
+│ │
+│ ├── App.jsx
+│ ├── index.js
+│ └── main.jsx
+│
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
+
+
+## 📦 Tech Stack
+- React.js  
+- Tailwind CSS  
+- Framer Motion  
+- Vite (Build Tool)  
+
+## 🛠️ Installation & Setup
+
+```bash
+# Clone the repository
+git clone https://github.com/sufiyan903/sufiyan-portfolio.git
+
+# Navigate to the project folder
+cd sufiyan-portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
+npm run dev
+
+🚀 Deployment
+This portfolio is deployed on GitHub Pages.
+
+To deploy your own:
+
+Push to a GitHub repository
+
+Add deployment scripts in package.json
+
+Run npm run deploy
+
+📬 Contact
+Feel free to reach out via:
+
+📧 Email: sufiyanibnrahman903@gmail.com
+
+💼 LinkedIn
+
+💻 GitHub
+
+⚙️ LeetCode
+
+📄 License
+This project is licensed for personal use. Feel free to fork and build your own version!
